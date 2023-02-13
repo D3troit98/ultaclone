@@ -1,5 +1,5 @@
 import './globals.css'
-
+import './font.css'
 export default function RootLayout({
   children,
 }: {
