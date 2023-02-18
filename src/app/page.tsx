@@ -18,9 +18,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <div>
+    <div className="w-full h-full flex flex-col">
       <Header />
-     
       <Banner />
       <LipCollection />
       <TodaysDeals />
@@ -32,5 +31,5 @@ export default function Home() {
       <Commitments />
       <Footer />
     </div>
-  )
+  );
 }

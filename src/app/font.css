@@ -17,3 +17,17 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'Chronicle-Deck-dark';
+    src: url('./Chronicle-Disp-Cond-Black.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Chronicle-Deck-light';
+    src: url('./Chronicle-Disp-Cond-Light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }

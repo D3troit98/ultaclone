@@ -1,9 +1,7 @@
 import React from 'react'
 
 const Commitments = () => {
-  return (
-    <div>C</div>
-  )
+  return <div>Commitments</div>;
 }
 
 export default Commitments
