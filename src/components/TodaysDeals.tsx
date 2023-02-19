@@ -1,5 +1,6 @@
 import React from 'react'
-
+import DealsCarousel from "./DealsCarousel";
+import DealsCart from "./DealsCart";
 const TodaysDeals = () => {
   return (
     <div className="flex flex-col items-center bg-[#ffffff] w-full  px-24 pt-20">
@@ -21,9 +22,17 @@ const TodaysDeals = () => {
           <span className="absolute  bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-700  group-hover:w-full"></span>
         </h4>
       </div>
-      <div>{/* today deals */}</div>
+      <div className="mt-20 w-full">
+        {/* today deals */}
+        <div className="flex">
+          <h3 className="font-circular-std-medium font-medium text-2xl">
+            Today's deals
+          </h3>
+        </div>
+        <DealsCarousel />
+      </div>
     </div>
   );
-}
+};
 
 export default TodaysDeals

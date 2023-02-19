@@ -99,8 +99,8 @@ const Banner = () => {
               Shop all
             </h4>
             <AiOutlineArrowRight
-              className={`font-circular-std-medium text-2xl font-medium transform translate-x-0 transition-all duration-500 ${
-                arrowHover ? "translate-x-2" : ""
+              className={`font-circular-std-medium text-2xl font-medium transform   transition-all duration-500 ${
+                arrowHover ? "translate-x-2" : "translate-x-0"
               } `}
             />
           </div>
