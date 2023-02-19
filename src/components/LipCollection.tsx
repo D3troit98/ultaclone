@@ -12,10 +12,10 @@ const LipCollection = () => {
   return (
     <div className="flex flex-col  justify-evenly items-center bg-[#ffffff] w-full  px-10 py-4">
       <h3 className="font-circular-std-medium font-bold text-4xl pb-4">
-        Explore Ulta Beauty Collection
+        Deals we love
       </h3>
       <h4 className="font-chronicle-deck-light text-xl font-normal leading-8">
-        Makeup, skin care, bath products and more with soon-to-be-fave status.
+        National Lash Day offers you don't want to miss.
       </h4>
 
       {/* three divs of images */}
