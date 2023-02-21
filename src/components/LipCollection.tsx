@@ -10,7 +10,7 @@ const LipCollection = () => {
   const [hovering3, setHovering3] = useState(false);
 
   return (
-    <div className="flex flex-col  justify-evenly items-center bg-[#ffffff] w-full  px-10 py-4">
+    <div className="flex flex-col  justify-evenly items-center bg-[#ffffff] w-full  px-10 pt-12">
       <h3 className="font-circular-std-medium font-bold text-4xl pb-4">
         Deals we love
       </h3>
