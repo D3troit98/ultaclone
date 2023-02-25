@@ -52,8 +52,20 @@ const LipCollection = () => {
             <span className="font-circular-std-medium text-sm font-light pb-3">
               Get the gift
             </span>
-            <span className="absolute  bottom-0 left-0 w-full h-[2px] bg-black   group-hover:w-0"></span>
-            <span className="absolute  bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-700  group-hover:w-full"></span>
+            <span
+              className={`${
+                hovering1
+                  ? "absolute  bottom-0 left-0  h-[2px] bg-black  w-0"
+                  : "absolute  bottom-0 left-0 w-full h-[2px] bg-black "
+              }`}
+            ></span>
+            <span
+              className={`${
+                hovering1
+                  ? "absolute  bottom-0 left-0 h-[2px] bg-black transition-all duration-700  w-full"
+                  : "absolute  bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-700 "
+              }`}
+            ></span>
           </h4>
         </div>
 
@@ -89,8 +101,20 @@ const LipCollection = () => {
             <span className="font-circular-std-medium text-sm font-light pb-3">
               Shop now
             </span>
-            <span className="absolute  bottom-0 left-0 w-full h-[2px] bg-black   group-hover:w-0"></span>
-            <span className="absolute  bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-700  group-hover:w-full"></span>
+            <span
+              className={`${
+                hovering2
+                  ? "absolute  bottom-0 left-0  h-[2px] bg-black  w-0"
+                  : "absolute  bottom-0 left-0 w-full h-[2px] bg-black "
+              }`}
+            ></span>
+            <span
+              className={`${
+                hovering2
+                  ? "absolute  bottom-0 left-0 h-[2px] bg-black transition-all duration-700  w-full"
+                  : "absolute  bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-700 "
+              }`}
+            ></span>
           </h4>
         </div>
 
@@ -126,8 +150,20 @@ const LipCollection = () => {
             <span className="font-circular-std-medium text-sm font-light pb-3">
               Shop now
             </span>
-            <span className="absolute  bottom-0 left-0 w-full h-[2px] bg-black   group-hover:w-0"></span>
-            <span className="absolute  bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-700  group-hover:w-full"></span>
+            <span
+              className={`${
+                hovering3
+                  ? "absolute  bottom-0 left-0  h-[2px] bg-black  w-0"
+                  : "absolute  bottom-0 left-0 w-full h-[2px] bg-black "
+              }`}
+            ></span>
+            <span
+              className={`${
+                hovering3
+                  ? "absolute  bottom-0 left-0 h-[2px] bg-black transition-all duration-700  w-full"
+                  : "absolute  bottom-0 left-0 w-0 h-[2px] bg-black transition-all duration-700 "
+              }`}
+            ></span>
           </h4>
         </div>
       </div>
