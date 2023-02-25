@@ -7,6 +7,8 @@ Ulta Beauty is an online store for all your beauty needs. Browse our wide select
 - Next.js
 - React
 - Tailwind CSS
+- TypeScript
+- JavaScript
 
 ## Features
 - Browse products by category
@@ -15,14 +17,18 @@ Ulta Beauty is an online store for all your beauty needs. Browse our wide select
 - Add products to cart and checkout
 
 # Getting Started
-Clone the repository
-Install dependencies with npm install
-Run the development server with npm run dev
-Deployment
+
+1. Clone the repository
+2. Install dependencies with `npm install`
+3. Run the development server with `npm run dev`
+
+## Deployment
+
 This application can be deployed using any hosting service that supports Node.js applications.
 
+
 # Credits
-This application was created by Duruaku Ebuka.
+This application was created by [https://github.com/D3troit98](Duruaku Ebuka).
 
 
 ## Contributing
