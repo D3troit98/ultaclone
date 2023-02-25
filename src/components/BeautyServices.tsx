@@ -20,7 +20,7 @@ const BeautyServices = () => {
             <p className="font-chronicle-deck-light text-lg lg:text-xl font-normal mt-2">
               Your best look. Our promise.Each service begins with a
               complimentary consulatation with a licensed beauty pro. Ask
-              questions and share ideas. we'll do the same
+              questions and share ideas. we&apos;ll do the same
             </p>
             <div className="flex justify-start items-center gap-3 lg:gap-5 mt-4 lg:mt-8">
               <h4 className=" relative group">

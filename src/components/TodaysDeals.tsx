@@ -25,7 +25,7 @@ const TodaysDeals = () => {
         {/* today deals */}
         <div className="flex">
           <h3 className="font-circular-std-medium font-medium text-xl lg:text-2xl">
-            Today's deals
+            Today&apos;s deals
           </h3>
         </div>
         <DealsCarousel />
