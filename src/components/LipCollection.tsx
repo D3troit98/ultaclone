@@ -15,7 +15,7 @@ const LipCollection = () => {
         Deals we love
       </h3>
       <h4 className="font-chronicle-deck-light text-lg lg:text-xl font-normal leading-8">
-        National Lash Day offers you don't want to miss.
+        National Lash Day offers you don&apos;t want to miss.
       </h4>
 
       {/* three divs of images */}
