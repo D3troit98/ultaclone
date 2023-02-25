@@ -9,12 +9,12 @@ import TodaydealImage3 from "../../assets/todaydeal3.webp";
 import TodaydealImage1 from "../../assets/todaydeal1.webp";
 const DealsCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const containerRef = useRef(null);
+  const containerRef = useRef<HTMLDivElement>(null);
 
   const scrollToNext = () => {
     const container = containerRef.current;
     const nextIndex = activeIndex + 1;
-    if (nextIndex < container.children.length) {
+    if (container && nextIndex < container.children.length) {
       container.children[nextIndex].scrollIntoView({
         behavior: "smooth",
         block: "nearest",
@@ -27,7 +27,8 @@ const DealsCarousel = () => {
   const scrollToPrev = () => {
     const container = containerRef.current;
     const prevIndex = activeIndex - 1;
-    if (prevIndex >= 0) {
+    if (container && prevIndex >= 0) {
+      // add a null check for container
       container.children[prevIndex].scrollIntoView({
         behavior: "smooth",
         block: "nearest",
