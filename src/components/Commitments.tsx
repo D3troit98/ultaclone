@@ -13,8 +13,8 @@ const Commitments = () => {
         </h1>
       </div>
 
-      <div className="flex flex-wrap justify-evenly items-start mt-4 lg:mt-8">
-        <div className="flex justify-center items-center p-4 ">
+      <div className="flex flex-wrap justify-evenly items-start mt-4 lg:mt-8 gap-2 lg:gap-4">
+        <div className="flex  items-center  ">
           <div className=" w-auto h-auto mr-3 lg:mr-6 ">
             <Image
               src={Evergreen}
@@ -43,7 +43,7 @@ const Commitments = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center p-4 ">
+        <div className="flex justify-center items-center  ">
           <div className=" w-auto h-auto mr-3 lg:mr-6 ">
             <Image
               src={Evergreen2}
@@ -73,7 +73,7 @@ const Commitments = () => {
           </div>
         </div>
 
-        <div className="flex justify-center items-center p-4 ">
+        <div className="flex justify-center items-center ">
           <div className=" w-auto h-auto mr-3 lg:mr-6 ">
             <Image
               src={Evergreen3}
