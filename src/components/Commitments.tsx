@@ -27,7 +27,7 @@ const Commitments = () => {
               Diversity, Equity & Incusion
             </h3>
             <p className="lg:mb-4 mb-2 font-circular-std-Light font-light text-sm">
-              We're committed to creating a more inclusive world
+              We're committed to creating a more inclusive world{" "}
             </p>
             <div className="flex justify-start items-center mt-3">
               <div>
