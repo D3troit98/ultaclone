@@ -3,8 +3,8 @@ import React from "react";
 import Footerlogo from "../../assets/footer_cc.png";
 const Footer = () => {
   return (
-    <div className="bg-[#f5f5f5] mt-8 pt-6">
-      <div className="flex flex-wrap justify-evenly items-start p-6">
+    <div className="bg-[#f5f5f5] mt-4 lg:mt-8 pt-3 lg:pt-6">
+      <div className="flex  flex-wrap  align-middle justify-evenly items-start p-3 lg:p-6">
         <div className="flex flex-col">
           <h3 className="text-sm font-bold text-[#222d3a] ">Store</h3>
           <p className="text-sm font-medium text-[#303030] font-circular-std-Light ">

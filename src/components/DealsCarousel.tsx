@@ -38,7 +38,7 @@ const DealsCarousel = () => {
   };
 
   return (
-    <div className="flex gap-7  overflow-scroll scroll-smooth container">
+    <div className="flex gap-3 lg:gap-7  overflow-scroll scroll-smooth container">
       <div ref={containerRef} className="flex">
         <DealsCart
           activeIndex={activeIndex}

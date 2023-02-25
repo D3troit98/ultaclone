@@ -2,11 +2,16 @@ import React from "react";
 import Image from "next/image";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
-const DealsCart = ({ activeIndex, scrollToPrev, scrollToNext, imgSrc }) => {
+const DealsCart = ({
+  activeIndex,
+  scrollToPrev,
+  scrollToNext,
+  imgSrc,
+}: any) => {
   return (
     <div>
-      <div className="flex flex-col w-[1027px] h-auto mt-8 bg-[#f6f6f6] pt-4 px-6 mr-5 ">
-        <div className="flex items-center justify-end gap-4">
+      <div className="flex flex-col w-96 lg:w-[1027px] h-auto mt-4 lg:mt-8 bg-[#f6f6f6] pt-2 lg:pt-4 px-3 lg:px-6 mr-2 lg:mr-5 ">
+        <div className="flex items-center justify-end gap-2 lg:gap-4">
           <BsChevronLeft
             className={`opacity-${
               activeIndex === 0 ? "50" : "100"
@@ -21,8 +26,8 @@ const DealsCart = ({ activeIndex, scrollToPrev, scrollToNext, imgSrc }) => {
             onClick={scrollToNext}
           />
         </div>
-        <div className="py-20 px-28  flex  items-center gap-9">
-          <div className=" w-96 h-auto ">
+        <div className="py-10 lg:py-20 px-14 lg:px-28  flex  items-center gap-4 lg:gap-9">
+          <div className="w-48 lg:w-96 h-auto ">
             <Image
               src={imgSrc}
               alt="todaydeal1"
@@ -33,14 +38,14 @@ const DealsCart = ({ activeIndex, scrollToPrev, scrollToNext, imgSrc }) => {
             <h4 className="font-circular-std-Black font-medium text-xs">
               NATIONAL LASH DAY
             </h4>
-            <h3 className="font-circular-std-Black font-medium text-2xl">
+            <h3 className="font-circular-std-Black font-medium text-xl lg:text-2xl">
               Free 11 piece gift
             </h3>
-            <p className="mb-4 font-circular-std-Light font-light text-sm">
+            <p className="mb-2 lg:mb-4 font-circular-std-Light font-light text-xs lg:text-sm">
               with any $65 online purchase. Choose from two. $122 value
             </p>
 
-            <h4 className="w-[85px] relative group">
+            <h4 className=" w-20 relative group">
               <span className="font-circular-std-medium text-sm font-light pb-3">
                 Get the gift
               </span>

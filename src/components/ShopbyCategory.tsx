@@ -15,17 +15,17 @@ import cat8 from "../../assets/ulta-collection-bubble.webp";
 import cat9 from "../../assets/gifts-bubble.webp";
 const ShopbyCategory = () => {
   return (
-    <div className="flex flex-col items-center bg-[#ffffff] w-full  px-24 pt-20">
+    <div className="flex flex-col items-center bg-[#ffffff] w-full px-12 lg:px-24  pt-10 lg:pt-20">
       <div className="flex justify-between w-full items-center bg-[#fdf1f3] py-8 px-12">
         {/* lash quiz */}
-        <div className="flex justify-center items-center gap-12 ">
-          <div className="h-auto w-[110px] ">
-            <Image src={Category1} alt="category1" className="w-full h-au" />
+        <div className="flex justify-center items-center gap-6 lg:gap-12 ">
+          <div className="h-auto w-16 lg:w-28 ">
+            <Image src={Category1} alt="category1" className="w-full h-auto" />
           </div>
-          <h3 className="text-[#cc0058] font-circular-std-medium text-2xl">
+          <h3 className="text-[#cc0058] font-circular-std-medium text-xl lg:text-2xl">
             2X Points
           </h3>
-          <p className="font-circular-std-medium text-sm align-middle">
+          <p className="font-circular-std-medium text-xs lg:text-sm align-middle">
             Earn 2 points per $1 spent at Ulta Beauty using your Ultamate
             Rewards Credit Card.
           </p>
@@ -41,12 +41,12 @@ const ShopbyCategory = () => {
       <div className="mt-20 w-full">
         {/* today deals */}
         <div className="flex justify-center items-center">
-          <h3 className="font-circular-std-medium font-medium text-2xl">
+          <h3 className="font-circular-std-medium font-medium text-xl lg:text-2xl">
             Shop by Category
           </h3>
         </div>
         {/* <Category /> */}
-        <div className="flex flex-wrap">
+        <div className="flex justify-center items-center flex-wrap">
           <CategoryCard imgSrc={LipLogo2} underlink="Makeup" />
           <CategoryCard imgSrc={cat1} underlink="Skin Care" />
           <CategoryCard imgSrc={cat2} underlink="Hair" />

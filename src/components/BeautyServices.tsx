@@ -10,19 +10,19 @@ const BeautyServices = () => {
   const [hovering2, setHovering2] = useState(false);
   const [hovering3, setHovering3] = useState(false);
   return (
-    <div className="w-full p-0 mt-20 bg-[#fdf1f3]">
+    <div className="w-full p-1 lg:p-0 mt-10 lg:mt-20 bg-[#fdf1f3]">
       <div className="flex flex-col">
-        <div className="flex justify-between pt-0 px-20 items-center">
-          <div className="flex flex-col w-80 pl-10">
-            <h1 className="font-circular-std-Black text-6xl font-bold">
+        <div className="flex lg:flex-row flex-col-reverse justify-between pt-0 px-10 lg:px-20 items-center">
+          <div className="flex flex-col w-full lg:w-80 pl-5 lg:pl-10">
+            <h1 className="font-circular-std-Black text-5xl lg:text-6xl font-bold">
               Beauty Services
             </h1>
-            <p className="font-chronicle-deck-light text-xl font-normal mt-2">
+            <p className="font-chronicle-deck-light text-lg lg:text-xl font-normal mt-2">
               Your best look. Our promise.Each service begins with a
               complimentary consulatation with a licensed beauty pro. Ask
               questions and share ideas-we'll do the same
             </p>
-            <div className="flex justify-start items-center gap-5 mt-8">
+            <div className="flex justify-start items-center gap-3 lg:gap-5 mt-4 lg:mt-8">
               <h4 className=" relative group">
                 <span className="font-circular-std-Light text-xs font-light pb-3">
                   Learn more
@@ -39,7 +39,7 @@ const BeautyServices = () => {
               </h4>
             </div>
           </div>
-          <div className="w-[900px] h-auto">
+          <div className="w-full lg:w-[900px] h-auto">
             <Image
               src={BeautyServiesLogo}
               alt="logo"

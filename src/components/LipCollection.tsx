@@ -10,22 +10,22 @@ const LipCollection = () => {
   const [hovering3, setHovering3] = useState(false);
 
   return (
-    <div className="flex flex-col  justify-evenly items-center bg-[#ffffff] w-full  px-10 pt-12">
-      <h3 className="font-circular-std-medium font-bold text-4xl pb-4">
+    <div className="flex flex-col  justify-evenly items-center bg-[#ffffff] w-full px-5 lg:px-10 pt-6 lg:pt-12">
+      <h3 className="font-circular-std-medium font-bold text-2xl  lg:text-4xl pb-4">
         Deals we love
       </h3>
-      <h4 className="font-chronicle-deck-light text-xl font-normal leading-8">
+      <h4 className="font-chronicle-deck-light text-lg lg:text-xl font-normal leading-8">
         National Lash Day offers you don't want to miss.
       </h4>
 
       {/* three divs of images */}
-      <div className="flex justify-between gap-16 pt-8 items-center align-middle">
+      <div className="flex flex-wrap justify-between gap-6 lg:gap-16 pt-4 lg:pt-8 items-center align-middle">
         <div
-          className="flex flex-col  w-80 h-auto justify-center items-start"
+          className="flex flex-col w-72  lg:w-80 h-auto justify-center items-start"
           onMouseEnter={() => setHovering1(true)}
           onMouseLeave={() => setHovering1(false)}
         >
-          <div className="w-80 h-96  items-center justify-center flex overflow-hidden">
+          <div className="w-72  lg:w-80 h-80 lg:h-96  items-center justify-center flex overflow-hidden">
             <div className=" w-full h-auto ">
               <Image
                 src={LipLogo2}
@@ -41,10 +41,10 @@ const LipCollection = () => {
           <h4 className="font-circular-std-Black font-medium text-xs">
             ONLINE ONLY
           </h4>
-          <h3 className="font-circular-std-Black font-medium text-2xl">
+          <h3 className="font-circular-std-Black font-medium text-xl lg:text-2xl">
             Free gift
           </h3>
-          <p className="mb-4 font-circular-std-Light font-light text-sm">
+          <p className="mb-4 font-circular-std-Light font-light text-sm lg:text-sm">
             Choose from two with any $65 purchase. $122 value.
           </p>
 
@@ -70,11 +70,11 @@ const LipCollection = () => {
         </div>
 
         <div
-          className="flex flex-col gap-2 w-80 h-auto justify-center items-start"
+          className="flex flex-col w-72  lg:w-80 h-auto justify-center items-start"
           onMouseEnter={() => setHovering2(true)}
           onMouseLeave={() => setHovering2(false)}
         >
-          <div className="w-80 h-96  items-center justify-center flex overflow-hidden">
+          <div className="w-72  lg:w-80 h-80 lg:h-96  items-center justify-center flex overflow-hidden">
             <div className=" w-full h-auto ">
               <Image
                 src={LipLogo1}
@@ -90,10 +90,10 @@ const LipCollection = () => {
           <h4 className="font-circular-std-Black font-medium text-xs">
             BENEFIT COSMETICS
           </h4>
-          <h3 className="font-circular-std-Black font-medium text-2xl">
+          <h3 className="font-circular-std-Black font-medium text-xl lg:text-2xl">
             50% off
           </h3>
-          <p className="mb-4 font-circular-std-Light font-light text-sm">
+          <p className="mb-4 font-circular-std-Light font-light text-sm lg:text-sm">
             Select mascaras
           </p>
 
@@ -119,11 +119,11 @@ const LipCollection = () => {
         </div>
 
         <div
-          className="flex flex-col gap-2 w-80 h-auto justify-center items-start"
+          className="flex flex-col w-72  lg:w-80 h-auto justify-center items-start"
           onMouseEnter={() => setHovering3(true)}
           onMouseLeave={() => setHovering3(false)}
         >
-          <div className="w-80 h-96  items-center justify-center flex overflow-hidden">
+          <div className="w-72  lg:w-80 h-80 lg:h-96  items-center justify-center flex overflow-hidden">
             <div className=" w-full h-auto ">
               <Image
                 src={LipLogo3}
@@ -139,10 +139,10 @@ const LipCollection = () => {
           <h4 className="font-circular-std-Black font-medium text-xs">
             CLINIQUE
           </h4>
-          <h3 className="font-circular-std-Black font-medium text-2xl">
+          <h3 className="font-circular-std-Black font-medium text-xl lg:text-2xl">
             Now $15
           </h3>
-          <p className="mb-4 font-circular-std-Light font-light text-sm">
+          <p className="mb-4 font-circular-std-Light font-light text-sm lg:text-sm">
             Mascaras & lash serum
           </p>
 

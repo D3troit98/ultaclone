@@ -11,13 +11,13 @@ const Banner = () => {
   return (
     <div className=" bg-[#ffffff] w-full h-full ">
       <div>
-        <div className="flex  w-full h-16 justify-evenly align-middle items-center  mb-4 bg-[#f6f6f6] px-10">
+        <div className="flex  w-full h-16 justify-evenly align-middle items-center  mb-4 bg-[#f6f6f6] px-5 lg:px-10">
           <div
             className="flex justify-center items-center gap-2"
             onMouseEnter={() => setArrowHover1(true)}
             onMouseLeave={() => setArrowHover1(false)}
           >
-            <div className="flex flex-col mr-[15px] h-full justify-center items-center">
+            <div className="flex flex-col mr-2 lg:mr-[15px] h-full justify-center items-center">
               <h4 className="font-circular-std-Light text-xs font-bold">
                 Earn 5X points on select brands.
               </h4>
@@ -78,15 +78,15 @@ const Banner = () => {
         </div>
       </div>
       {/* Hero Section */}
-      <div className="flex justify-between items-start px-10 ">
+      <div className="flex lg:flex-row flex-col justify-center items-start px-5 lg:px-10 ">
         <div className="flex flex-col justify-center items-start text-left pl-28 pt-28 gap-2">
           <p className="font-circular-std-Black text-xs font-medium">
             In store & online | Feb 19-25
           </p>
-          <h2 className="font-circular-std-medium text-6xl font-bold">
+          <h2 className="font-circular-std-medium text-5xl lg:text-6xl font-bold">
             30% off select <br /> lashes & <br /> mascara
           </h2>
-          <p className="font-chronicle-deck-light text-xl font-normal">
+          <p className="font-chronicle-deck-light text-lg lg:text-xl font-normal">
             Celebrate National Lash Day (Feb 19) all week long <br />
             with offers on your fave brands.
           </p>
@@ -95,17 +95,17 @@ const Banner = () => {
             onMouseEnter={() => setArrowHover(true)}
             onMouseLeave={() => setArrowHover(false)}
           >
-            <h4 className="font-circular-std-medium text-2xl font-medium mr-1">
+            <h4 className="font-circular-std-medium text-xl lg:text-2xl font-medium mr-1">
               Shop all
             </h4>
             <AiOutlineArrowRight
-              className={`font-circular-std-medium text-2xl font-medium transform   transition-all duration-500 ${
+              className={`font-circular-std-medium text-xl lg:text-2xl font-medium transform   transition-all duration-500 ${
                 arrowHover ? "translate-x-2" : "translate-x-0"
               } `}
             />
           </div>
         </div>
-        <div className="h-[441px] w-auto">
+        <div className="h-96 lg:h-[441px]  w-auto">
           <Image src={HeroBanner} alt="hero banner" className="w-full h-full" />
         </div>
       </div>
