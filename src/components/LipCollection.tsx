@@ -19,7 +19,7 @@ const LipCollection = () => {
       </h4>
 
       {/* three divs of images */}
-      <div className="flex flex-wrap justify-between gap-6 lg:gap-16 pt-4 lg:pt-8 items-center align-middle">
+      <div className="flex flex-wrap justify-center gap-6 lg:gap-16 pt-4 lg:pt-8 items-center align-middle">
         <div
           className="flex flex-col w-72  lg:w-80 h-auto justify-center items-start"
           onMouseEnter={() => setHovering1(true)}

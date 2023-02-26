@@ -19,7 +19,7 @@ const ShopbyCategory = () => {
       <div className="flex justify-between w-full items-center bg-[#fdf1f3] py-8 px-12">
         {/* lash quiz */}
         <div className="flex justify-center items-center gap-6 lg:gap-12 ">
-          <div className="h-auto w-16 lg:w-28 ">
+          <div className="hidden md:flex h-auto w-16 lg:w-28 ">
             <Image src={Category1} alt="category1" className="w-full h-auto" />
           </div>
           <h3 className="text-[#cc0058] font-circular-std-medium text-xl lg:text-2xl">

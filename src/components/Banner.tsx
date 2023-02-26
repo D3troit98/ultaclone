@@ -11,7 +11,7 @@ const Banner = () => {
   return (
     <div className=" bg-[#ffffff] w-full h-full ">
       <div>
-        <div className="flex  w-full h-16 justify-evenly align-middle items-center  mb-4 bg-[#f6f6f6] px-5 lg:px-10">
+        <div className="flex flex-col md:flex-row  w-full h-auto md:h-16 justify-center md:justify-evenly align-middle items-center  mb-2 md:mb-4 bg-[#f6f6f6] py-3 px-2 md:px-5 lg:px-10">
           <div
             className="flex justify-center items-center gap-2"
             onMouseEnter={() => setArrowHover1(true)}
@@ -78,8 +78,8 @@ const Banner = () => {
         </div>
       </div>
       {/* Hero Section */}
-      <div className="flex lg:flex-row flex-col justify-center items-start px-5 lg:px-10 ">
-        <div className="flex flex-col justify-center items-start text-left pl-28 pt-28 gap-2">
+      <div className="flex lg:flex-row flex-col justify-center items-start px-4 lg:px-10 ">
+        <div className="flex flex-col justify-center items-start text-left pl-10 lg:pl-28 pt-10 lg:pt-28 gap-2">
           <p className="font-circular-std-Black text-xs font-medium">
             In store & online | Feb 19-25
           </p>
